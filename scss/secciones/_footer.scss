@@ -1,0 +1,14 @@
+footer{
+    form{
+        input{
+            padding: 15px;
+            &:focus{
+                background-color: aquamarine;
+                &::placeholder{
+                    color: rgb(0, 0, 0);
+                }
+            }
+          
+        }
+    }
+}

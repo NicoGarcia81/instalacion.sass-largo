@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main-index {
+  background-color: burlywood;
+  text-align: center;
+  min-height: 50vh; }
+  .main-index .card {
+    max-width: 350px;
+    margin: 0 auto; }
+    .main-index .card h2 {
+      font-family: sans-serif; }
+      .main-index .card h2:hover {
+        color: bisque;
+        background-color: black; }
+
+@media (min-width: 550px) {
+  .main-index {
+    flex-direction: row; } }
+
+header {
+  background-color: cadetblue;
+  height: 20vh; }
+  header li {
+    list-style: none;
+    text-align: center; }
+
+footer form input {
+  padding: 15px; }
+  footer form input:focus {
+    background-color: aquamarine; }
+    footer form input:focus::placeholder {
+      color: black; }
